@@ -33,6 +33,11 @@
   </screenshots>
   <url type="homepage">https://rustdesk.com</url>
   <url type="bugtracker">https://github.com/rustdesk/rustdesk/issues</url>
+  <url type="donation">https://github.com/sponsors/rustdesk</url>
+  <url type="help">https://rustdesk.com/docs/en/technical-support/</url>
+  <url type="translate">https://github.com/rustdesk/rustdesk/tree/master/src/lang</url>
+  <url type="contribute">https://github.com/rustdesk/rustdesk/blob/master/docs/CONTRIBUTING.md</url>
+  <url type="vcs-browser">https://github.com/rustdesk/rustdesk</url>
   <releases>
     <release version="v1.3.1" date="2024-09-20"/>
   </releases>
