@@ -35,8 +35,8 @@
     </screenshot>
   </screenshots>
   <branding>
-    <color type="primary" scheme_preference="light">#00bbe3</color>
-    <color type="primary" scheme_preference="dark">#0176fa</color>
+    <color type="primary" scheme_preference="light">#d9eaf8</color>
+    <color type="primary" scheme_preference="dark">#0160ee</color>
   </branding>
   <url type="homepage">https://rustdesk.com</url>
   <url type="bugtracker">https://github.com/rustdesk/rustdesk/issues</url>
