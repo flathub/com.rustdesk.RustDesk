@@ -37,9 +37,11 @@
       ]
     },
     {
-      "name": "pam",    
+      "name": "pam",
       "buildsystem": "autotools",
-      "config-opts": [ "--disable-selinux" ],
+      "config-opts": [
+        "--disable-selinux"
+      ],
       "sources": [
         {
           "type": "archive",
@@ -67,9 +69,10 @@
           "sha256": "725f8d53b397add3fbab24f793baa086391d1bb1a03ff80ceacc4d96597d2e63",
           "dest-filename": "rustdesk.deb",
           "x-checker-data": {
-            "type": "anitya",
-            "project-id": "309593",
-            "url-template": "https://github.com/rustdesk/rustdesk/releases/download/$version/rustdesk-$version-aarch64.deb"
+            "type": "json",
+            "url": "https://api.github.com/repos/rustdesk/rustdesk/releases/latest",
+            "version-query": ".tag_name",
+            "url-query": ".assets[] | select(.name == \"rustdesk-\\($version)-aarch64.deb\").browser_download_url"
           }
         },
         {
@@ -81,9 +84,12 @@
           "sha256": "f7d675ed2160c05b2206b6b7e50a2d369b6ed7f63abe0e89b9f38f9a29793fb4",
           "dest-filename": "rustdesk.deb",
           "x-checker-data": {
-            "type": "anitya",
-            "project-id": "309593",
-            "url-template": "https://github.com/rustdesk/rustdesk/releases/download/$version/rustdesk-$version-x86_64.deb"
+            "type": "json",
+            "url": "https://api.github.com/repos/rustdesk/rustdesk/releases/latest",
+            "version-query": ".tag_name",
+            "timestamp-query": ".published_at",
+            "url-query": ".assets[] | select(.name == \"rustdesk-\\($version)-x86_64.deb\").browser_download_url",
+            "is-main-source": true
           }
         },
         {
