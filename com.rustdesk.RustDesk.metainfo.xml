@@ -56,6 +56,40 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.3.2" date="2024-10-29">
+      <description>
+        <p>Added</p>
+        <ul>
+            <li>Web client v2 Preview (https://rustdesk.com/web)</li>
+            <li>Auto record outgoing sessions (https://github.com/rustdesk/rustdesk/discussions/5453)</li>
+            <li>Map mode from mobile physical keyboard to desktop (https://github.com/rustdesk/rustdesk/pull/9717)</li>
+        </ul>
+        
+        <p>Changes</p>
+        <ul>
+            <li>No need to input password again if open file transfer from remote window (https://github.com/rustdesk/rustdesk/issues/9723)</li>
+        </ul>
+        
+        <p>Fixes</p>
+        <ul>
+            <li>Check for software update on startup not working (https://github.com/rustdesk/rustdesk/issues/9453)</li>
+            <li>Shared address book swap on iOS (https://github.com/rustdesk/rustdesk/issues/9455)</li>
+            <li>No history / favorites sometime (https://github.com/rustdesk/rustdesk/discussions/9122)</li>
+            <li>Windows restore / maximize (https://github.com/rustdesk/rustdesk/issues/9481, https://github.com/rustdesk/rustdesk/issues/9479)</li>
+            <li>Missing bc dependency in RustDesk package (https://github.com/rustdesk/rustdesk/issues/9537)</li>
+            <li>Copy and paste limited in 1.3.1 (https://github.com/rustdesk/rustdesk/discussions/9568)</li>
+            <li>File transfer not work on controlled side in Flatpak (https://github.com/flathub/flathub/pull/5670#issuecomment-2395067890)</li>
+            <li>Windows, multi-window, move between monitors (https://github.com/rustdesk/rustdesk/pull/9562)</li>
+            <li>Wayland capslock (https://github.com/rustdesk/rustdesk/pull/9641)</li>
+            <li>Flickers child screen when resizing window (https://github.com/rustdesk/rustdesk/issues/8505)</li>
+            <li>Korean mobile input (https://github.com/rustdesk/rustdesk/pull/9644)</li>
+            <li>Physical display rotation (Windows vram) (https://github.com/rustdesk/rustdesk/pull/9696)</li>
+            <li>Window's width and height increase by 1 pixel exiting full screen (https://github.com/rustdesk/rustdesk/issues/9675)</li>
+            <li>Macos, mouse events, key flags (https://github.com/rustdesk/rustdesk/pull/9733)</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.3.2</url>
+    </release>
     <release version="1.3.1" date="2024-09-20"/>
   </releases>
   <content_rating type="oars-1.1"/>
