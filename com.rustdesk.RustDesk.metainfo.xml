@@ -57,7 +57,44 @@
   </supports>
   <releases>
     <release version="1.3.3" date="2024-11-26">
-      <description></description>
+      <description>
+        <p>Added</p>
+        <ul>
+            <li>Rotate ID3D11Texture2D (#9772)</li>
+            <li>Ensure cursor visible when software keyboard poped out (#9803)</li>
+            <li>Mobile clipboard support (#9950)</li>
+            <li>System sound of Mac arm (#10025)</li>
+            <li>"Untagged" to filter addressbook peers without tags (#10063)</li>
+        </ul>
+        
+        <p>Changes</p>
+        <ul>
+            <li>Upgrade to Flutter 3.24 for better GPU compatibility (#5108)</li>
+            <li>Reverted Korean compose improvement because it causes wider problem of other languages (#9790, #9857)</li>
+            <li>Do not allow cursor out of canvas in mobile (#9811, #9827)</li>
+            <li>Remove y-pan limitation when soft keyboard appears (#9787)</li>
+            <li>Revert default codec back to AV1 (#9938)</li>
+        </ul>
+        
+        <p>Fixes</p>
+        <ul>
+            <li>Refresh button when random password disabled (#9791)</li>
+            <li>Save / restore window position (#9875)</li>
+            <li>Mobile -> mobile, long press, etc (#9775, #9767)</li>
+            <li>Tap down trigger while two fingers scale (#9856)</li>
+            <li>Don't adjust canvas on gesture help show up and switch cursor mode etc (#9846, #9843, #9860)</li>
+            <li>Remember or configure different default display resolution per device (#9781)</li>
+            <li>The main interface cannot be displayed when using multiple monitors with different DPI (#6223)</li>
+            <li>Black screen when connecting to device with monitor off (#9884)</li>
+            <li>Audio cracked when streaming from Android to Windows (#9770)</li>
+            <li>Fix hwcodec decode failure (#9960)</li>
+            <li>One privacy mode 2 failure case (#9110)</li>
+            <li>File transfer won't do anything on empty folders (#9096)</li>
+            <li>hwcodec not working on Ubuntu 22.04 (#9532)</li>
+            <li>Android keyboard map mode workaround for swift keyboard (#10064)</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.3.3</url>
     </release>
     <release version="1.3.2" date="2024-10-29">
       <description>
