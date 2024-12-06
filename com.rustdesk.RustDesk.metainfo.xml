@@ -57,7 +57,33 @@
   </supports>
   <releases>
     <release version="1.3.5" date="2024-12-05">
-      <description></description>
+      <description>
+        <p>Added</p>
+        <ul>
+            <li>Mobile, key help tool, more keys (#10068)</li>
+        </ul>
+        
+        <p>Changes</p>
+        <ul>
+            <li>"Untagged" tag uses the theme accent color (#10111)</li>
+            <li>Linux dynamic load libva for better compatibility (#10171)</li>
+        </ul>
+        
+        <p>Fixes</p>
+        <ul>
+            <li>Windows (64-bits) 7 support (service pack 1 required, or install this patch) (#10102)</li>
+            <li>Linuxmint - window is not displayed (#10134)</li>
+            <li>Keyboard input issues after pressed F4: some letter redirected to dock icons (#10126)</li>
+            <li>Cannot drag the vertical slider in RustDesk GUI (#10106)</li>
+            <li>Android (Mouse Mode) swipe the gesture to the right and stop in place (#10084)</li>
+            <li>Rounded corners are opaque black after 1.3.3 (#10121)</li>
+            <li>Application crashes (mac) when typing anything in ID/Relay server fields (#7766)</li>
+            <li>Android app "Download new version" button is not clickable (#9407)</li>
+            <li>rustdesk 1.3.4 on opensuse leap 15.6 doesn't show GUI main window anymore, only kde tray icon and kde symbol, 1.3.3 worked flawlessly (#10180)</li>
+            <li>Unable to launch macOS client 1.3.3 or 1.3.4 because of missing referenced symbols in the objective-C dylib (OSX 12.7) (#10178)</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.3.5</url>
     </release>
     <release version="1.3.3" date="2024-11-26">
       <description>
