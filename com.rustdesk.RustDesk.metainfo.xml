@@ -56,6 +56,9 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.3.7" date="2025-01-20">
+      <description></description>
+    </release>
     <release version="1.3.6" date="2024-12-22">
       <description>
         <p>Added</p>
@@ -134,7 +137,7 @@
         <ul>
             <li>Refresh button when random password disabled (#9791)</li>
             <li>Save / restore window position (#9875)</li>
-            <li>Mobile -> mobile, long press, etc (#9775, #9767)</li>
+            <li>Mobile -&gt; mobile, long press, etc (#9775, #9767)</li>
             <li>Tap down trigger while two fingers scale (#9856)</li>
             <li>Don't adjust canvas on gesture help show up and switch cursor mode etc (#9846, #9843, #9860)</li>
             <li>Remember or configure different default display resolution per device (#9781)</li>
