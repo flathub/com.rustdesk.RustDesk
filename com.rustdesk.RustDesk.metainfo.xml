@@ -56,6 +56,25 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.3.8" date="2025-02-22">
+      <description>
+        <ul>
+            <li>Cross platform file copy &amp; paste, copy to macOS not ready yet (#10671)</li>
+            <li>Device group</li>
+            <li>Allow - (dash) in id</li>
+            <li>Change the behavior of right click on contrlled Android to long press</li>
+            <li>Change "Group" tab to "Accessible devices"</li>
+        </ul>
+        
+        <p>Fixes</p>
+        <ul>
+            <li>Window 10 and macOS window border</li>
+            <li>Touch move for controlling android both from desktop and mobile</li>
+            <li>Freezes when clicking on ID line (#10795)</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.3.8</url>
+    </release>
     <release version="1.3.7" date="2025-01-20">
       <description>
         <ul>
