@@ -56,6 +56,28 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.3.9" date="2025-03-31">
+      <description>
+        <ul>
+            <li>View camera</li>
+            <li>Support Citrix session</li>
+            <li>allow-https-21114 option</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+            <li>Disable vram (D3D) decoder by default to avoid black screen on some desktop</li>
+            <li>Change msi silent installation not to start client after installation</li>
+        </ul>
+        
+        <p>Fixes</p>
+        <ul>
+            <li>Custom client, wrong positon of settings button on left pane of main window</li>
+            <li>One blank window case for multiple display switch</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.3.9</url>
+    </release>
     <release version="1.3.8" date="2025-02-22">
       <description>
         <ul>
