@@ -57,7 +57,35 @@
   </supports>
   <releases>
     <release version="1.4.0" date="2025-05-11">
-      <description></description>
+      <description>
+        <ul>
+          <li>Allow logon screen password on lock screen</li>
+          <li>Take screenshot</li>
+          <li>Hostname as id for Pro</li>
+          <li>Web socket support on all platform</li>
+          <li>Trackpad speed adjustment #11680</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+          <li>Remove system proxy dep of reqwest</li>
+          <li>Capitalize display name</li>
+          <li>Only use tcp in socks5 proxy since so many users failed to set up UDP for socks5 including ourselves</li>
+          <li>"Exit" changed to "Stop service" on tray to avoid confusion</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+          <li>Tray startup is tried via sudo (and denied) which results in an email #9802</li>
+          <li>Http proxy with reqwest</li>
+          <li>Hide cm</li>
+          <li>Lan discovery</li>
+          <li>Rdp #10039</li>
+          <li>Mouse scroll, remote tabs #11708</li>
+          <li>2FA login status</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.0</url>
     </release>
     <release version="1.3.9" date="2025-03-31">
       <description>
