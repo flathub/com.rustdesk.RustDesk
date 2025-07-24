@@ -57,7 +57,36 @@
   </supports>
   <releases>
     <release version="1.4.1" date="2025-07-23">
-      <description></description>
+      <description>
+        <p>Added</p>
+        <ul>
+          <li>Terminaln</li>
+          <li>UDP and IPv6 Punch</li>
+          <li>Stylus</li>
+          <li>Numberic one time password option</li>
+          <li>Enable force-always-relay option in address books and accessible devices</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+          <li>Force secure tcp for login session rather than ignoring timeout</li>
+          <li>clear the accessible devices tab when retrieving accessible devices disabled #11913</li>
+          <li>Improve sas</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+          <li>len(uid) < 4 case for "No active console user logged on" #11943</li>
+          <li>Test nat type for outgoing-only client</li>
+          <li>Untagged tag does not work in secondary or additional address books. #12061</li>
+          <li>bring back allow-https-21114 rustdesk/rustdesk-server-pro#570 (reply in thread)</li>
+          <li>linux, nokhwa, camera index #12045</li>
+          <li>Privacy Mode 2 Failed ChangeDisplaySettingsEx, ret: -1, last error.... #10540</li>
+          <li>Record directory of custom client #12171</li>
+          <li>rustdesk.service cause high CPU usage when idle #11157</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.1</url>
     </release>
     <release version="1.4.0" date="2025-05-11">
       <description>
