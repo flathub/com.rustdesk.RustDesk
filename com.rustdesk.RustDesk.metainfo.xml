@@ -76,7 +76,7 @@
 
         <p>Fixes</p>
         <ul>
-          <li>len(uid) < 4 case for "No active console user logged on" #11943</li>
+          <li>len(uid) less than 4 case for "No active console user logged on" #11943</li>
           <li>Test nat type for outgoing-only client</li>
           <li>Untagged tag does not work in secondary or additional address books. #12061</li>
           <li>bring back allow-https-21114 rustdesk/rustdesk-server-pro#570 (reply in thread)</li>
