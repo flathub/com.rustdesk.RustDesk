@@ -7,7 +7,7 @@
   <launchable type="desktop-id">com.rustdesk.RustDesk.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>AGPL-3.0-only</project_license>
-  <name>RustDesk</name>
+  <name translate="no">RustDesk</name>
   <summary>Secure remote desktop access</summary>
   <summary xml:lang="ru">Безопасный удаленный доступ к рабочему столу</summary>
   <description>
