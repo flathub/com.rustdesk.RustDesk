@@ -60,7 +60,7 @@
   <url type="vcs-browser">https://github.com/rustdesk/rustdesk</url>
   <url type="translate">https://github.com/rustdesk/rustdesk/tree/master/src/lang</url>
   <url type="contribute">https://github.com/rustdesk/rustdesk/blob/master/docs/CONTRIBUTING.md</url>
-  <url type="contact">https://rustdesk.com/docs/en/technical-support</url>
+  <url type="contact">https://rustdesk.com/support</url>
   <requires>
     <display_length compare="ge">600</display_length>
     <internet>always</internet>
