@@ -2,27 +2,40 @@
 <component type="desktop-application">
   <id>com.rustdesk.RustDesk</id>
   <developer id="com.rustdesk">
-    <name>RustDesk</name>
+    <name translate="no">RustDesk</name>
   </developer>
   <launchable type="desktop-id">com.rustdesk.RustDesk.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>AGPL-3.0-only</project_license>
-  <name>RustDesk</name>
+  <name translate="no">RustDesk</name>
   <summary>Secure remote desktop access</summary>
+  <summary xml:lang="ru">Безопасный удаленный доступ к рабочему столу</summary>
   <description>
     <p>
         RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.
     </p>
+    <p xml:lang="ru">
+        RustDesk — это полнофункциональная альтернатива удаленного управления с открытым исходным кодом для самохостинга и безопасности с минимальной конфигурацией.
+    </p>
     <ul>
       <li> Works on Windows, macOS, Linux, iOS, Android, Web. </li>
+      <li xml:lang="ru"> Работает на Windows, macOS, Linux, iOS, Android, Web. </li>
       <li> Supports VP8 / VP9 / AV1 software codecs, and H264 / H265 hardware codecs. </li>
+      <li xml:lang="ru"> Поддерживает программные кодеки VP8 / VP9 / AV1 и аппаратные кодеки H264 / H265. </li>
       <li> Own your data, easily set up self-hosting solution on your infrastructure. </li>
+      <li xml:lang="ru"> Владейте своими данными: хост RustDesk легко настраивается на вашей инфраструктуре. </li>
       <li> P2P connection with end-to-end encryption based on NaCl. </li>
-      <li> No administrative privileges or installation needed for Windows, elevate priviledge locally or from remote on demand. </li>
+      <li xml:lang="ru"> P2P-соединение с сквозным шифрованием на основе NaCl. </li>
+      <li> No administrative privileges or installation needed for Windows, elevate privilege locally or from remote on demand. </li>
+      <li xml:lang="ru"> Не требуются административные права или установка для Windows, повышайте привилегии локально или удаленно по запросу. </li>
       <li> We like to keep things simple and will strive to make simpler where possible. </li>
+      <li xml:lang="ru"> Мы любим упрощать вещи и будем стремиться делать их проще где возможно. </li>
     </ul>
     <p>
         For self-hosting setup instructions please go to our home page.
+    </p>
+    <p xml:lang="ru">
+        Для инструкций по настройке собственного хостинга, пожалуйста, перейдите на наш сайт.
     </p>
   </description>
   <categories>
@@ -31,6 +44,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Remote desktop session</caption>
+      <caption xml:lang="ru">Сессия удаленного рабочего стола</caption>
       <image>https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png</image>
     </screenshot>
   </screenshots>
