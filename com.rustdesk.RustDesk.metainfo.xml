@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <id>com.rustdesk.RustDesk</id>
   <developer id="com.rustdesk">
-    <name>RustDesk</name>
+    <name translate="no">RustDesk</name>
   </developer>
   <launchable type="desktop-id">com.rustdesk.RustDesk.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
