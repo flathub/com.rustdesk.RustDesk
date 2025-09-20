@@ -70,6 +70,40 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.4.2" date="2025-09-15">
+      <description>
+        <ul>
+          <li>show your cursor on controlled side in view mode</li>
+          <li>Incremental file transfer support (both sides being 1.4.2 are required)</li>
+          <li>sciter hide cm #12570</li>
+          <li>show TCP/UDP/IPv6 in tooltip #12613</li>
+          <li>clipboard files, audit #12730</li>
+          <li>advanced option, main window, always on top #12731</li>
+          <li>disable-discovery-pane</li>
+          <li>address-book level password</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+          <li>try udp/tcp punch both at the same time</li>
+          <li>Enhance .desktop File with New Keywords for Improved App Discoverability #12599</li>
+          <li>Upgrade codecs</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+          <li>nokhwa, win, infinite loop #12489</li>
+          <li>set allowMalformed to true when decode utf8 #12693</li>
+          <li>ios, file transfer, home dir #12657</li>
+          <li>On Ubuntu, the activity's name is "RustDeskURL Scheme Handler" instead of "RustDesk" at the top bar #12587</li>
+          <li>audio delay (Linux): added pulse audio and pipewire configuration RustDesk service #12724</li>
+          <li>mouse event, is in current window #12760</li>
+          <li>Scrambled image #12719</li>
+          <li>port forward, invalid msg</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.2</url>
+    </release>
     <release version="1.4.1" date="2025-07-23">
       <description>
         <p>Added</p>
