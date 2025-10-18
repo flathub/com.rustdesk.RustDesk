@@ -70,6 +70,9 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.4.3" date="2025-10-17">
+      <description></description>
+    </release>
     <release version="1.4.2" date="2025-09-15">
       <description>
         <ul>
