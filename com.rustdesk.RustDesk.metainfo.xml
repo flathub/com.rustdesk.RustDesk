@@ -70,6 +70,32 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.4.3" date="2025-10-17">
+      <description>
+        <ul>
+          <li>Virtual mouse on mobile (demo)</li>
+          <li>Custom scale mode with inline controls and live apply (demo)</li>
+          <li>Wayland multi-monitor screen capture functionality (demo)</li>
+          <li>More assign from cli and devices.py</li>
+          <li>Address book api res/ab.py, and audit api res/audits.py</li>
+          <li>IPv6 prefix-based rate limiting on login failures</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+          <li>Centralize debounce of save window pos and save window pos on close</li>
+          <li>Touch mode option moved from peer option to local option</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+          <li>Arch/Wayland 100% cpu</li>
+          <li>Websocket reconnect</li>
+          <li>uninstall idd</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.3</url>
+    </release>
     <release version="1.4.2" date="2025-09-15">
       <description>
         <ul>
