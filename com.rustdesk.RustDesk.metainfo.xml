@@ -70,6 +70,36 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.4.4" date="2025-11-19">
+      <description>
+        <ul>
+          <li>Better Wayland support for multi scaled monitors (Gnome and KDE)</li>
+          <li>Edge scrolling</li>
+          <li>Ask for note at the end of connection</li>
+          <li>File transfer, auto start on reconnect</li>
+          <li>UI costomization for Sciter version</li>
+          <li>Insecure TLS option</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+          <li>rustls-tls fall back to native-tls for better TLS compatibility on all platforms</li>
+          <li>The http post in UI is changed from Flutter to native rust for better compatibility and consistency.</li>
+          <li>flatpak, socket x11, better compatibility</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+          <li>Image paused for multiple incoming connections with multiple screens</li>
+          <li>Camera capture large error log</li>
+          <li>Show alias instead of peerId in terminal tab label</li>
+          <li>Reqwest proxy auth</li>
+          <li>keep chat window within screen bounds to prevent hidden window</li>
+          <li>terminal clear command on some env</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.4</url>
+    </release>
     <release version="1.4.3" date="2025-10-17">
       <description>
         <ul>
