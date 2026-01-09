@@ -71,7 +71,41 @@
   </supports>
   <releases>
     <release version="1.4.5" date="2026-01-09">
-      <description></description>
+      <description>
+        <ul>
+          <li>Allow configuring remote control permissions for different users #13974</li>
+          <li>Relative mouse mode #13928</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+          <li>Remove gzip encoding in Legacy AB pushes #13937</li>
+          <li>Show login dialog when clicking note if not logged in #13856</li>
+          <li>Require login for note #13775</li>
+          <li>Remote toolbar icon #13865</li>
+          <li>Remote toolbar show/hide #13843</li>
+          <li>File transfer: delegate win --server file reading to CM #13736</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+          <li>File transfer: perm on "access-mode" #13971</li>
+          <li>Desktop: wakelock issue with multiple tabs in same window #13956</li>
+          <li>Address book fetch failure: Add Content-Length header for empty body POST requests #13940</li>
+          <li>Termianl: linux, macOS, windows as the controlled side</li>
+          <li>Window positioning out of bounds on multi-monitors setup #13828 #13903</li>
+          <li>Linux, home #13879</li>
+          <li>Set TERM env variable for terminal to fix Delete key not working #13747</li>
+          <li>Win, peer shortcut, colon to underscore</li>
+          <li>Terminal top content overlapping with notch (SafeArea) #13724</li>
+          <li>File transfer, jobs lost if conn is not established #13635</li>
+          <li>Sciter, cursor position mismatch</li>
+          <li>Mouse doesnt work after update 1.4.4 on ubuntu 25.10 (wayland)</li>
+          <li>Custom client, contains RustDesk #13783h</li>
+          <li>Wrong is_public #13701</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.4</url>
     </release>
     <release version="1.4.4" date="2025-11-19">
       <description>
