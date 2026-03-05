@@ -76,7 +76,7 @@
           <li>avatar #14440</li>
           <li>ui: scale wheel lines on Windows/Linux to Mac #14395</li>
           <li>display_name #14358</li>
-          <li>feat(wayland): keyboard mode, legacy & translate #14317</li>
+          <li>feat(wayland): keyboard mode, legacy and translate #14317</li>
           <li>auto retry on offline when controlled peer's account changes #14124</li>
           <li>add Changelog link in update help card #13997</li>
           <li>keep-awake-during-incoming-sessions and keep-awake-during-outgoing-sessions #14082</li>
