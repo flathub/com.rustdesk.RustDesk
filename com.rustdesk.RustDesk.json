@@ -70,8 +70,8 @@
           "only-arches": [
             "aarch64"
           ],
-          "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-aarch64.deb",
-          "sha256": "bb7c78043865ac16b0d843de25cc1c916bdff19a2bd1b2c34f7d46c627827682",
+          "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-aarch64.deb",
+          "sha256": "d767b042c53a169f4bc6273d884a238fc44501a9fda2095fb05820dfc538b34c",
           "dest-filename": "rustdesk.deb",
           "x-checker-data": {
             "type": "json",
@@ -85,8 +85,8 @@
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-x86_64.deb",
-          "sha256": "6117ea2c2f5885830bff64b6b695b2596a2613dc35301539f19ae52747181c83",
+          "url": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-x86_64.deb",
+          "sha256": "0da46d7a7b252282ded5323f74319a10c1fa7271001d3b297b3def415c8c8f04",
           "dest-filename": "rustdesk.deb",
           "x-checker-data": {
             "type": "json",
