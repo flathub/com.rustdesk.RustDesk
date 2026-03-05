@@ -71,7 +71,41 @@
   </supports>
   <releases>
     <release version="1.4.6" date="2026-03-05">
-      <description></description>
+      <description>
+        <ul>
+          <li>avatar #14440</li>
+          <li>ui: scale wheel lines on Windows/Linux to Mac #14395</li>
+          <li>display_name #14358</li>
+          <li>feat(wayland): keyboard mode, legacy & translate #14317</li>
+          <li>auto retry on offline when controlled peer's account changes #14124</li>
+          <li>add Changelog link in update help card #13997</li>
+          <li>keep-awake-during-incoming-sessions and keep-awake-during-outgoing-sessions #14082</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+          <li>Move port mapping afterwards #14448</li>
+          <li>input password before reconnection for macos update #14430</li>
+          <li>packaging: deb: remove obsolete Python version check #14429</li>
+          <li>change quick support filename detection #14050</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+          <li>fix(keyboard): legacy mode #14435</li>
+          <li>feat(terminal): add reconnection buffer support for persistent sessions #14377</li>
+          <li>Message being typed is cleared when remote message is received</li>
+          <li>Fix/terminal tab close persistent #14359</li>
+          <li>fix(terminal): fix new tab auto-focus and NaN error on data before layout #14357</li>
+          <li>fix(terminal): fix tabKey parsing for peerIds containing underscores #14354</li>
+          <li>fix: correct typos and improve code clarity #14341</li>
+          <li>Fix/linux shortcuts inhibit #14302</li>
+          <li>Fix non-link text color in dialogs with links for dark theme #14220</li>
+          <li>fix hide-tray=Y causing The application “RustDesk.app” is not open a… #14127</li>
+          <li>fix(install): linux xdo #14096</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.6</url>
     </release>
     <release version="1.4.5" date="2026-01-09">
       <description>
