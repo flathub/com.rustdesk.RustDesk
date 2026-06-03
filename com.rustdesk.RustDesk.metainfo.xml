@@ -71,7 +71,54 @@
   </supports>
   <releases>
     <release version="1.4.7" date="2026-06-02">
-      <description></description>
+      <description>
+        <ul>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/15138" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/15138/hovercard" aria-keyshortcuts="Alt+ArrowUp">Add advanced option to allow CLI settings when custom client toggles Disable settings #15138</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/15051" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/15051/hovercard" aria-keyshortcuts="Alt+ArrowUp">Drag whole toolbar; snap to all four edges of the remote session window #15051</a></li>
+          <li>Github action hash pinned</li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14875" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14875/hovercard" aria-keyshortcuts="Alt+ArrowUp">feat: option, enable-privacy-mode &amp; enable-perm-change-in-accept-window #14875</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14782" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14782/hovercard" aria-keyshortcuts="Alt+ArrowUp">impl(cm): implement change_theme and change_language callbacks #14782</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14682" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14682/hovercard" aria-keyshortcuts="Alt+ArrowUp">add brute-force protection for one-time password #14682</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14563" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14563/hovercard" aria-keyshortcuts="Alt+ArrowUp">add option to hide stop-service when service is running #14563</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/15035" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/15035/hovercard" aria-keyshortcuts="Alt+ArrowUp">--deploy, reuse the device token #15035</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/15073" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/15073/hovercard" aria-keyshortcuts="Alt+ArrowUp">refact(password): encrypt #15073</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14985" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14985/hovercard" aria-keyshortcuts="Alt+ArrowUp">Harden os password （terminal windows and headless linux) anti brute force #14985</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14797" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14797/hovercard" aria-keyshortcuts="Alt+ArrowUp">stop retrying on restricted mobile access errors #14797</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14700" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14700/hovercard" aria-keyshortcuts="Alt+ArrowUp">(keyboard): wayland clipboard input prompt #14700</a></li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/15168" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/15168/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix: bytes codec, reserver(), check max #15168</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/15144" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/15144/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(crypt): symmetric crypt, zero nonce #15144</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/15142" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/15142/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix: add integer overflow check in wf_cliprdr.c #15142</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/15063" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/15063/hovercard" aria-keyshortcuts="Alt+ArrowUp">scrap/wayland: insert videoconvert to fix screencast on COSMIC / DMA-BUF portals #15063</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/15058" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/15058/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(ipc): scope active-user IPC routing to root CLI main requests #15058</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14928" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14928/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(custom-client): desktop, incoming only, touch drag #14928</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14925" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14925/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(fs): file transfer, reconnect, restore dir #14925</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14924" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14924/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix: remove unsafe exec() in wf_cliprdr.c #14924</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14895" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14895/hovercard" aria-keyshortcuts="Alt+ArrowUp">Terminal utf8 and reconnect #14895</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14880" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14880/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(sicter): control side, privacy mode #14880</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14867" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14867/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix safari-oidc https://github.com/rustdesk/rustdesk/issues/14861 #14867</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14848" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14848/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(linux): enable mouse side buttons in remote sessions #14848</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14836" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14836/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(client): serialize X11 keyboard grab and debounce focus feedback #14836</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14813" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14813/hovercard" aria-keyshortcuts="Alt+ArrowUp">flutter: improve address book pull error handling #14813</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14695" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14695/hovercard" aria-keyshortcuts="Alt+ArrowUp">flutter: shift after one shot IME capitalization #14695</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14678" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14678/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix: file transfer, path traversal #14678</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14671" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14671/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(ipc): harden local IPC authorization and portable-service bootstrap flow #14671</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14661" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14661/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix switch sides for macOS peers #14661</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14564" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14564/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(shell): restrict kv in update_install_option #14564</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14561" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14561/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(linux): prevent X11 BadWindow crash in get_focused_display #14561</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14543" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14543/hovercard" aria-keyshortcuts="Alt+ArrowUp">Fix(wayland): improve error message when xdg-desktop-portal is unavailable #12897 #14543</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14530" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14530/hovercard" aria-keyshortcuts="Alt+ArrowUp">Fix Linux tray icon collision with other tray-icon crate apps #14530</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14528" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14528/hovercard" aria-keyshortcuts="Alt+ArrowUp">Fix: note dialog not shown when closing session from reconnecting screen #14528</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14502" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14502/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix empty strategy value cannot apply over default advanced options #14502</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14460" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14460/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(flutter): reduce accidental horizontal trackpad scrolling during vertical pan #14460</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14448" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14448/hovercard" aria-keyshortcuts="Alt+ArrowUp">Move port mapping afterwards #14448</a></li>
+          <li><a href="https://github.com/rustdesk/rustdesk/pull/14446" data-hovercard-type="pull_request" data-hovercard-url="/rustdesk/rustdesk/pull/14446/hovercard" aria-keyshortcuts="Alt+ArrowUp">fix(update): macos, test before update #14446</a></li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.7</url>
     </release>
     <release version="1.4.6" date="2026-03-05">
       <description>
