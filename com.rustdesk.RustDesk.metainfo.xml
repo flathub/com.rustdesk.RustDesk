@@ -70,6 +70,56 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.4.7" date="2026-06-02">
+      <description>
+        <ul>
+          <li>Add advanced option to allow CLI settings when custom client toggles Disable settings #15138</li>
+          <li>Drag whole toolbar; snap to all four edges of the remote session window #15051</li>
+          <li>Github action hash pinned</li>
+          <li>feat: option, enable-privacy-mode &amp; enable-perm-change-in-accept-window #14875</li>
+          <li>impl(cm): implement change_theme and change_language callbacks #14782</li>
+          <li>add brute-force protection for one-time password #14682</li>
+          <li>add option to hide stop-service when service is running #14563</li>
+          <li>--deploy, reuse the device token #15035</li>
+          <li>refact(password): encrypt #15073</li>
+          <li>Harden os password （terminal windows and headless linux) anti brute force #14985</li>
+          <li>stop retrying on restricted mobile access errors #14797</li>
+          <li>(keyboard): wayland clipboard input prompt #14700</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+          <li>fix: bytes codec, reserver(), check max #15168</li>
+          <li>fix(crypt): symmetric crypt, zero nonce #15144</li>
+          <li>fix: add integer overflow check in wf_cliprdr.c #15142</li>
+          <li>scrap/wayland: insert videoconvert to fix screencast on COSMIC / DMA-BUF portals #15063</li>
+          <li>fix(ipc): scope active-user IPC routing to root CLI main requests #15058</li>
+          <li>fix(custom-client): desktop, incoming only, touch drag #14928</li>
+          <li>fix(fs): file transfer, reconnect, restore dir #14925</li>
+          <li>fix: remove unsafe exec() in wf_cliprdr.c #14924</li>
+          <li>Terminal utf8 and reconnect #14895</li>
+          <li>fix(sicter): control side, privacy mode #14880</li>
+          <li>fix safari-oidc https://github.com/rustdesk/rustdesk/issues/14861 #14867</li>
+          <li>fix(linux): enable mouse side buttons in remote sessions #14848</li>
+          <li>fix(client): serialize X11 keyboard grab and debounce focus feedback #14836</li>
+          <li>flutter: improve address book pull error handling #14813</li>
+          <li>flutter: shift after one shot IME capitalization #14695</li>
+          <li>fix: file transfer, path traversal #14678</li>
+          <li>fix(ipc): harden local IPC authorization and portable-service bootstrap flow #14671</li>
+          <li>fix switch sides for macOS peers #14661</li>
+          <li>fix(shell): restrict kv in update_install_option #14564</li>
+          <li>fix(linux): prevent X11 BadWindow crash in get_focused_display #14561</li>
+          <li>Fix(wayland): improve error message when xdg-desktop-portal is unavailable #12897 #14543</li>
+          <li>Fix Linux tray icon collision with other tray-icon crate apps #14530</li>
+          <li>Fix: note dialog not shown when closing session from reconnecting screen #14528</li>
+          <li>fix empty strategy value cannot apply over default advanced options #14502</li>
+          <li>fix(flutter): reduce accidental horizontal trackpad scrolling during vertical pan #14460</li>
+          <li>Move port mapping afterwards #14448</li>
+          <li>fix(update): macos, test before update #14446</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.7</url>
+    </release>
     <release version="1.4.6" date="2026-03-05">
       <description>
         <ul>
