@@ -70,6 +70,34 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.4.8" date="2026-06-21">
+      <description>
+        <ul>
+          <li>Feature: Add monitor-switch buttons to remote toolbars #15342</li>
+          <li>Refact/privacy mode 1 multi monitors #15321</li>
+          <li>autocomplete online #15313</li>
+          <li>feat: theme logo #15268</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+          <li>refact: restart remote device, autoconnect #15290</li>
+          <li>refact(oidc): icon azure to microsoft #15278</li>
+          <li>Refact/printer driver default unchecked #15191</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+          <li>fix Wayland→Wayland clipboard paste</li>
+          <li>fix(arm64-linux): fix CJK font rendering on flutter-elinux #15324</li>
+          <li>fix(linux): reap leftover logind session procs on headless teardown #15337</li>
+          <li>Fix/generate py target injection #15248</li>
+          <li>Fix clipboard synchronization not fully disabled in View Only mode #15224</li>
+          <li>fix(keyboard): win, key, Pause #15351</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.8</url>
+    </release>
     <release version="1.4.7" date="2026-06-02">
       <description>
         <ul>
