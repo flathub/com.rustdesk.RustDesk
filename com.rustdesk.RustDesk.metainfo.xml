@@ -79,7 +79,7 @@
         <li>refact: remove feature cli #15524</li>
 
         <p>Fixes</p>
-        <li>Fix/session scope permission audit #15469
+        <li>Fix/session scope permission audit #15469</li>
         <li>fix: non-E2EE show dialog #15514</li>
         <li>fix(wayland): clipboard, support ext-data-control #15366</li>
         <li>refact: file transfer, do this for all conflicts(tasks) #15385</li>
