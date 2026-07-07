@@ -71,7 +71,27 @@
   </supports>
   <releases>
     <release version="1.4.9" date="2026-07-06">
-      <description></description>
+      <description>
+        <li>Support controller user attribution in audit logs #15407</li>
+        <li>Feature: Restore the last viewed monitor on auto reconnect #15441</li>
+        <li>auto-close terminal tab/window when shell exits #15448</li>
+        <li>Add authentication details to connection audit #15456</li>
+        <li>refact: remove feature cli #15524</li>
+
+        <p>Fixes</p>
+        <li>Fix/session scope permission audit #15469
+        <li>fix: non-E2EE show dialog #15514</li>
+        <li>fix(wayland): clipboard, support ext-data-control #15366</li>
+        <li>refact: file transfer, do this for all conflicts(tasks) #15385</li>
+        <li>fix(clipboard): unix, refresh cached file size/mtime on re-copy #15392</li>
+        <li>fix(custom-client): show options, incoming-only #15394</li>
+        <li>fix(fuse): fuse path broken, since ipc path changed #15406</li>
+        <li>Tray menu opens on left-click after tray-icon ≥0.17 update (regression from 1.4.6) #15413</li>
+        <li>fix(fuse): umount #15426</li>
+        <li>fix(update): msi, norestart #15440</li>
+        <li>fix(clipboard): make CLIPRDR format-map growth checked #15493</li>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.4.9</url>
     </release>
     <release version="1.4.8" date="2026-06-21">
       <description>
