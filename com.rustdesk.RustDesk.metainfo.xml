@@ -71,7 +71,100 @@
   </supports>
   <releases>
     <release version="1.5.0" date="2026-09-30">
-      <description></description>
+      <description>
+        <ul>
+            <li>Webrtc #15684</li>
+            <li>Id whitelist #15586</li>
+            <li>Hdr tonemap #16033</li>
+            <li>optionally sync clipboard between connected sessions #15934</li>
+            <li>feat(terminal): add Ctrl and Alt toggles to mobile terminal keyboard #15532</li>
+            <li>feat(recording): add visibility and service storage options #15662</li>
+            <li>feat(rdp): title the mstsc window after the peer instead of "localhost" #15781</li>
+            <li>feat(flutter): add mobile canvas lock #15877</li>
+            <li>Kx v1 #16326</li>
+            <li>feat(terminal): add opt‑in OSC 52 clipboard writes #16072</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+            <li>improve qos #16082</li>
+            <li>refact: remove feature cli #15524</li>
+            <li>WebClient: 3.44 webcodecs offline #15722</li>
+            <li>Linux drop shell from service loop #15979</li>
+            <li>port forward shared conn #16062</li>
+            <li>temporary password: rotate when a peer is let in, not when it leaves #16080</li>
+            <li>cursor: bound the decoded cursor caches on the Flutter client #16304</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+            <li>fix: update download, force tls #15529</li>
+            <li>harden wf_cliprdr.c #15515</li>
+            <li>fix: check valid id #15535</li>
+            <li>Fix Adjust Window sizing across DPI #15592</li>
+            <li>restrict switch sides to remote desktop sessions #15610</li>
+            <li>fix(linux): forward forced display server to user server #15627</li>
+            <li>fix: refresh wayland uinput range on compositor layout change #15628</li>
+            <li>fix(deploy): don't wipe local id when --deploy gets an empty --id #15633</li>
+            <li>fix(keyboard): jis, macos, muhenkan henkan #15669</li>
+            <li>fix: validate RGBA clipboard dimensions #15672</li>
+            <li>fix: validate remote audio channel count #15673</li>
+            <li>fix(wayland): scale portal pointer coordinates on niri #15683</li>
+            <li>fix(clipboard): win, populate file formats #15692</li>
+            <li>fix(clipboard): validate files #15693</li>
+            <li>refact(oidc): manually open the browser #15706</li>
+            <li>Fix flutter white window forceredraw #15717</li>
+            <li>fix(linux): make quit_cm actually quit the connection manager #15718</li>
+            <li>fix(linux): load librustdesk.so relative to the executable #15719</li>
+            <li>fix(wayland): subscribe to portal Response before making the request #15726</li>
+            <li>fix(linux): keep‑awake does nothing on a GNOME login screen #15772</li>
+            <li>fix(terminal): send SGR mouse wheel reports with the button codes app… #15817</li>
+            <li>fix(file‑transfer): improve large directory loading #15830</li>
+            <li>fix(terminal): keep selection aligned after clearing scrollback #15831</li>
+            <li>fix(flutter): make Adjust Window reliable across desktop platforms #15853</li>
+            <li>fix(wayland): back off the polling display lookups after a failure (drm) #15865</li>
+            <li>fix(drm): deliver a rotated output upright (#15886) #15889</li>
+            <li>fix(flutter): initialize the cursor hotspot y from its own origin #15898</li>
+            <li>fix(linux): a session logout should hand the peer to the login screen #15905</li>
+            <li>feat(terminal): use platform‑native copy and paste shortcuts #15931</li>
+            <li>Prefer active X11 session display #15933</li>
+            <li>fix: Show My Cursor freezes in View Only mode when remote user moves mouse #15936</li>
+            <li>fix appimage: gdk‑pixbuf PNG decode crash on remote cursors #15938</li>
+            <li>fix(flutter): align terminal shortcuts with platform conventions #15970</li>
+            <li>fix(linux): a Wayland session without XAUTHORITY is not incomplete #15978</li>
+            <li>fix: show speed in desktop file transfer status #15980</li>
+            <li>fix(linux): Set AppIndicator ID for tray‑icon #15981</li>
+            <li>fix: recover DXGI capture after access loss #16024</li>
+            <li>fix(custom client): preserve executable name casing during update #16057</li>
+            <li>Fix/audio stream continuity #16095</li>
+            <li>fix: clipboard, preserve uncompressed special format data #16100</li>
+            <li>fix(audio): update CPAL for WASAPI thread priority #16110</li>
+            <li>Dead peer recovery #16117</li>
+            <li>fix(screenshot): keep cached image when saving fails #16120</li>
+            <li>fix(drm): measure the cursor hotspot on drivers without HOTSPOT_X/Y, confirm before publishing #16122</li>
+            <li>server: do not lock the screen for a connection whose session reconnects… #16124</li>
+            <li>fix(audio): restart capture when the device is unavailable #16142</li>
+            <li>fix(audio): preserve compatible playback and recover failed Windows outputs #16150</li>
+            <li>Upgrade FFmpeg to 7.1.1 to fix HEVC WPP deadlocks #16169</li>
+            <li>fix(cursor): correct native cursor sizing and validate received images #16213</li>
+            <li>fix(audio): three 100% CPU busy loops on the _pa path #16229</li>
+            <li>fix(rdev): macos, numpad flag, clear on text keys #16253</li>
+            <li>fix: avoid unnecessary clipboard reads and stale initial sync #16293</li>
+            <li>fix(ws): reject text frames after encryption is enabled #16295</li>
+            <li>fix: restrict VRAM stall detection to AMD SDK #16319</li>
+            <li>fix(unix): ignore SIGPIPE in native Flutter entry #16322</li>
+            <li>Fix clipboard range overflow #16329</li>
+            <li>fix(appimage): build AppRun with bounded argument splitting #16330</li>
+            <li>fix(clipboard): unix, check file transfer permission on incoming file… #16333</li>
+            <li>fix(mobile): honor reverse mouse wheel setting #16337</li>
+            <li>Fix, online state, validate the data length #16339</li>
+            <li>fix(clipboard): unix, don't let the next file's preload fail a request #16364</li>
+            <li>fix(linux): use BUS_VIRTUAL for the virtual mouse device #16382</li>
+            <li>fix(clipboard): unix, keep Windows directories searchable #16406</li>
+            <li>Don't retry the _pa ipc at a Linux login screen #16390</li>
+        </ul>
+      </description>
+      <url>https://github.com/rustdesk/rustdesk/releases/tag/1.5.0</url>
     </release>
     <release version="1.4.9" date="2026-07-06">
       <description>
