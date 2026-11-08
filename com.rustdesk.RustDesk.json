@@ -39,7 +39,8 @@
       "name": "pam",
       "buildsystem": "meson",
       "config-opts": [
-        "-Dselinux=disabled"
+        "-Dselinux=disabled",
+        "-Dvendordir="
       ],
       "sources": [
         {
