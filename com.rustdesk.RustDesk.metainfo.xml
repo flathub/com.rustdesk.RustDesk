@@ -70,6 +70,57 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="1.5.1" date="2026-11-01">
+      <url type="details">https://github.com/rustdesk/rustdesk/releases/tag/1.5.1</url>
+      <description>
+        <ul>
+            <li>Keyboard shortcuts #14933</li>
+            <li>feat(update): verify signed update metadata #15914</li>
+            <li>feat(address-book): add a toolbar button to open the web console #16680</li>
+            <li>Add trusted-device V2 with legacy upgrade compatibility #16548</li>
+        </ul>
+
+        <p>Changes</p>
+        <ul>
+            <li>Remove ConfigUpdate handling 9f9585ce</li>
+            <li>change(video): improve clarity after scrolling by re-encoding static frames #16128</li>
+            <li>Tune MediaCodec static refresh budgets #16579</li>
+        </ul>
+
+        <p>Fixes</p>
+        <ul>
+            <li>fix(drm): size a plane-rotated scanout as the mode transposed #16444</li>
+            <li>fix(drm): the startup cache warm does not wake sleeping displays #16437</li>
+            <li>fix(drm): drop a frame equal to the previous one, as the other capturers do #16450</li>
+            <li>fix(drm): pace the producer to the rate the encoder takes, with the panel refresh as floor #16423</li>
+            <li>fix(wayland): avoid clock waits in PipeWire capture #16430</li>
+            <li>fix(wayland): place a portal stream at the only output of its size #16451</li>
+            <li>Fix/wayland input keyboard layout #16462</li>
+            <li>fix(video): defer refresh teardown until hw encoder warms up #16459</li>
+            <li>fix: resolve HTTP API 407 errors through HTTPS proxies #16496</li>
+            <li>Fix/preserve deleted printer #16500</li>
+            <li>fix: a refused privacy-mode request no longer turns off another connection's #16507</li>
+            <li>fix(linux): report the process user as the active user under Flatpak #16519</li>
+            <li>fix: auto-login types the OS password only at the logon or lock screen #16520</li>
+            <li>fix(terminal): trim the replay buffer when output has no newline #16545</li>
+            <li>fix(wayland): a pending portal request no longer stalls the server #16542</li>
+            <li>fix: read host= from an exe path with non-ASCII characters #16556</li>
+            <li>fix(linux): stop using the window in onWindowClose once GTK destroyed it #16561</li>
+            <li>fix(client): report one error when both WebRTC race legs fail #16563</li>
+            <li>fix(x11): keep the RandR monitors reply alive while iterating it #16595</li>
+            <li>Forward audio latency environment to Linux user server #16597</li>
+            <li>fix: bracket a bare IPv6 ID server when deriving the API server #16624</li>
+            <li>fix: warn about insecure custom API server connections #16616</li>
+            <li>Fix/download path validation #16601</li>
+            <li>fix(file-transfer): keyboard navigation in the desktop file list #16642</li>
+            <li>fix(ffmpeg): handle QSV encoder stalls and undersized buffers #16303</li>
+            <li>fix(linux): match the xrandr output name at the start of its line #16590</li>
+            <li>fix(linux): gtk sudo shows no false "Sorry, try again." and retries with sudo-rs #16652</li>
+            <li>fix(client): invalidate auto FPS state when updating FPS limits #16283</li>
+            <li>fix(linux): load peers when the app dir is unset #16698</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.5.0" date="2026-09-30">
       <description>
         <ul>
